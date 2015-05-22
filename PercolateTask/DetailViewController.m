@@ -183,8 +183,6 @@
     NSDate *lastUpdatedDate = [formatter dateFromString:lastUpdatedString];
     NSDate *dateNow = [NSDate date];
     
-    NSLog(@"laste updated date is %@",lastUpdatedDate);
-    
     NSTimeInterval timeInterval = [dateNow timeIntervalSinceDate:lastUpdatedDate];
     double secondsInAnDay = 24 * 3600;
     double secondsInAWeek = 7 * secondsInAnDay;
